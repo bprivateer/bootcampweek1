@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background: black;
+  padding: 20px;
+
+
+
+}
+
+.navbar a{
+  color: white;
+
+}
+
+.navbar a:hover{
+  color:yellow;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 60%;
+  width: 100%;
+
+
+}
+
+.image{
+  display: flex;
+  justify-content: flex-end;
+align-content: center;
+
+  border-style: solid;
+  border-width: 4px;
+  height: 400px;
+  width: 400px;
+
+}
+
+#one{
+  background-image: url("/Users/admin/TIY/week1/day5/images/poppy1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#two{
+  background-image: url("/Users/admin/TIY/week1/day5/images/poppy2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#three{
+  background-image: url("/Users/admin/TIY/week1/day5/images/poppy3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#four{
+  background-image: url("/Users/admin/TIY/week1/day5/images/poppy4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
